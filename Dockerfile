@@ -25,9 +25,9 @@ RUN useradd -m -s /bin/bash -d /home/sduser sduser && \
     chown -R sduser:sduser /workspace
 USER sduser
 
-# Clone ForgeUI and CivitAI downloader
-RUN git clone https://github.com/HeapsGo0d/stable-diffusion-forgeui.git /workspace/forgeui && \
-    git clone https://github.com/Hearmeman24/CivitAI_Downloader.git /workspace/civitai-downloader
+# Copy your local ForgeUI code and clone the downloader
+COPY --chown=sduser:sduser forgeui /workspace/forgeui
+RUN git clone https://github.com/Hearmeman24/CivitAI_Downloader.git /workspace/civitai-downloader
 
 WORKDIR /workspace/forgeui
 
