@@ -1,0 +1,27 @@
+# Byte‑compiled Python (if you ever add scripts)
+__pycache__/
+*.py[cod]
+
+# Shell swap files
+*~
+
+# Logs
+*.log
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment files
+*.env
+
+# Docker helper files
+docker-compose.override.yml
+
+# Build artifacts
+*.tar
+*.img
