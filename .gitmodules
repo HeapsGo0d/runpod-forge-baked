@@ -1,0 +1,3 @@
+[submodule "external/comfyui-sdxl"]
+	path = external/comfyui-sdxl
+	url = https://github.com/Hearmeman24/comfyui-sdxl.git
