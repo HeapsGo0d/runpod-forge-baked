@@ -1,4 +1,4 @@
-# Byte‑compiled Python (if you ever add scripts)
+# Byte‑compiled Python
 __pycache__/
 *.py[cod]
 
@@ -18,9 +18,6 @@ Thumbs.db
 
 # Environment files
 *.env
-
-# Docker helper files
-docker-compose.override.yml
 
 # Build artifacts
 *.tar
